@@ -35,7 +35,7 @@ const Genres = ({
     fetchGenres();
 
     return () => {
-      setGenres({}); // unmounting
+      setGenres({}); // unmounting genre
     };
     // eslint-disable-next-line
   }, []);
