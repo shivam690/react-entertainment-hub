@@ -2,10 +2,12 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <span onClick={() => window.scroll(0, 0)} className="header">
+    <span onClick={ () => window.scroll(0, 0) } className= "header">
             MOVIESTAR     
-    </span>
-  );
+   
+</span>
+
+);
 };
 
 export default Header;
